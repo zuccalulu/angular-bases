@@ -4,6 +4,7 @@ import { CounterModule } from './counter/components/counter/counter.module';
 import { HeroesModule } from './heroes/components/heroes/heroes.module';
 import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
+import { DbzModule } from './dbz/dbz.module';
 
 
 
@@ -19,6 +20,7 @@ import { CommonModule } from '@angular/common';
     BrowserModule,
     CounterModule,
     HeroesModule,
+    DbzModule
 
   ],
   providers: [],
